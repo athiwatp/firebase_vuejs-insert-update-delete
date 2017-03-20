@@ -1,6 +1,21 @@
 # vue-firebase2.0
-
+![Firebase](https://pbs.twimg.com/media/Cp-xNyXWYAAXHHH.jpg)
 > A Vue.js project
+```javascript
+// Initialize Firebase
+var config = {
+  apiKey: "xxxxxxxxxxxxxxxxxxxx",
+  authDomain: "xxxxxxxxxxxxxxxxxxxx",
+  databaseURL: "xxxxxxxxxxxxxxxxxxxx",
+  storageBucket: "xxxxxxxxxxxxxxxxxxxx",
+  messagingSenderId: "xxxxxxxxxxxxxxxxxxxx"
+};
+firebase.initializeApp(config);
+</script>
+```
+
+<a herf="https://firebase.google.com/docs/database/web/lists-of-data"> Link Firebase Read and Write Data</a>
+
 
 ## Build Setup
 

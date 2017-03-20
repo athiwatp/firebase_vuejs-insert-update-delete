@@ -17,11 +17,11 @@
 <script>
 import firebase from 'firebase'
 var config = {
-  apiKey: 'AIzaSyAUW0HgyW7nBGBrUPdlWmDBMpHUHOSwpB0',
-  authDomain: 'fir-auth-12e52.firebaseapp.com',
-  databaseURL: 'https://fir-auth-12e52.firebaseio.com',
-  storageBucket: 'fir-auth-12e52.appspot.com',
-  messagingSenderId: '221877419354'
+  apiKey: 'xxxxxxxxxxxxxxxxxxxx',
+  authDomain: 'xxxxxxxxxxxxxxxxxxxx',
+  databaseURL: 'xxxxxxxxxxxxxxxxxxxx',
+  storageBucket: 'xxxxxxxxxxxxxxxxxxxx',
+  messagingSenderId: 'xxxxxxxxxxxxxxxxxxxx'
 }
 firebase.initializeApp(config)
 var db = firebase.database().ref('users')
